@@ -10,6 +10,7 @@
     font-size: 22px;
     font-weight: 600;
     margin-right: 12px;
+    visibility: visible;
 }
 
 .social {
@@ -57,12 +58,14 @@ img {
 }
 
 .header {
-    position: fixed;
+    /* giữ nguyên vị trí khi trang được cuộn */
+    position: fixed;    
     top: 0;
     width: 100%;
     background-color: #FFF;
     padding: 70px 0;
 }
+
 
 .banner section h1 {
     font-size: 48px;
@@ -117,7 +120,7 @@ img {
     margin-bottom: 60px;
 }
 
-.button {
+.button{
     display: inline-block;
     text-transform: uppercase;
     font-size: 12px;
@@ -134,5 +137,136 @@ img {
 .button-text {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.about-section
+{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.skills-list li {
+    display: inline-block;
+    color: #373737;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #FFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 27px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    
+}
+
+.skills-section {
+    padding-bottom: 50px;
+}
+
+.experience-list ul li {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-left: 28px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+span.s2 {
+    color: #373737;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.s1 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.experience-list p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+.experience-list section {
+    padding-right: 70px;
+}
+
+.work-list {
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-right: 70px;
+    background-color: #F6F8FA;
+    margin-bottom: 40px;
+}
+
+.work-list p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.experience-section {
+    padding-bottom: 70px;
+}
+
+.footer {
+    background-color: #000;
+    padding: 120px 0;
+}
+
+.footer section span {
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer section h4 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer section p {
+    letter-spacing: 1.13px;
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.footer section {
+    padding-bottom: 97px;
+}
+
+.button:hover
+{
+    background: #F26464;
+    color: #D7D7D7;
+    transition-duration: 0.4s;
+}
+
+.footer .copy-right
+{
+    font-size: 18px;
+    color:grey;
+}
+
+.skills-list {
+    padding: 0;
 }
