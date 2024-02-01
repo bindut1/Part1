@@ -4,11 +4,11 @@ padding: 10px 20px 30px (trên - trái - bottom)
 
 box-sizing: set layout cho content, padding, border(đảm bảo tổng kích thước do mình set)
 bảng đơn vị tuyệt đối, tương đối
-phân biệt 3 cái visibility property
+visibility
 display
 flex box(flex-direction, justify-content, align-items, flex-wrap)
+Ngoài cách căn giữa dùng display flex thì có thể dùng margin:auto
+position
 pseudo-class:   .square:hover{
 
 }
-position
-Ngoài cách căn giữa dùng display flex thì có thể dùng margin:auto

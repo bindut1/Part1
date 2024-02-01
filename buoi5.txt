@@ -1,0 +1,4 @@
+responsive
+media query
+breakpoint
+dùng gap để set space giữa các element
