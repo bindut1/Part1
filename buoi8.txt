@@ -3,3 +3,31 @@ var
 datatypes
 data structure
 operator
+
+
+
+function type
+string method
+
+
+-Có 3 cách để viết 1 function:
++ function greet(name) {
+    return "Hello, " + name + "!";
+}
++ const greet = function(name) {
+    return "Hello, " + name + "!";
+};
++ const greet = (name) => {
+    return "Hello, " + name + "!";
+};
+
+join
+
+array
+for each, map, filter, every, some, reduce, includes
+syntax
+constructor
+full trong w3 :v
+Luyện lại các kiến thức + ví dụ cụ thể cho nhớ
+
+MUA MỲ TÔM + NƯỚC MÉM

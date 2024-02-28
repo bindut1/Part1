@@ -98,18 +98,6 @@ section {
     text-decoration: none;
 }
 
-.text a:hover::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    z-index: 999;
-}
 
 button {
     padding: 15px 40px;
@@ -118,8 +106,6 @@ button {
     border-radius: 50px;
     text-transform: uppercase;
     font-weight: 700;
-    /* border-left: 2px solid #21bcf4; 
-    border-right: 2px solid #21bcf4;  */
     border: 2px solid #21bcf4;
 }
 
@@ -207,11 +193,14 @@ button {
     max-width: 100%;
 }
 
-.text:hover a {
-    color: #00c4f4;
-    transition-duration: 0.6s;
-
+.text a {
+    transition: 0.4s; 
 }
+
+.text a:hover {
+    color: #00c4f4; 
+}
+
 
 .image:hover section {
     transform: translateY(-40px);
@@ -230,13 +219,9 @@ button {
     padding: 20px;
 }
 
+
 h4 {
     display: block;
-    /* padding: -40px; */
-    /* margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
     margin-top: -10px;
     font-weight: bold;
 }
@@ -352,8 +337,6 @@ p {
     margin-top: -15px;
 }
 
-/* Hỏi chỗ hiệu ứng trả về sao cho từ từ khi hover vào mấy cái chữ*/
-
 @media (max-width: 1199.98px) {
     .inner {
         padding: 100px 20px 40px;
@@ -403,7 +386,8 @@ p {
         padding: 20px;
     }
 
-    .banner-content h2, p{
+    .banner-content h2,
+    p {
         font-size: 50px;
     }
 
@@ -431,7 +415,15 @@ p {
 }
 
 @media (max-width: 575.98px) {
-    .banner-content h2, p{
+    .feature {
+        width: 100%; 
+    }
+    .title section h2
+    {
+        font-size: 35px;
+    }
+    .banner-content h2,
+    p {
         font-size: 40px;
     }
 
@@ -439,8 +431,7 @@ p {
         width: 80%;
     }
 
-    .footer h2
-    {
+    .footer h2 {
         font-size: 40px;
     }
 
